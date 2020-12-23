@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC48F95B259261BA00F8EF44 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC48F95A259261BA00F8EF44 /* TrekrApp.swift */; };
+		FC48F95D259261BA00F8EF44 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC48F95C259261BA00F8EF44 /* LocationView.swift */; };
+		FC48F95F259261BC00F8EF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC48F95E259261BC00F8EF44 /* Assets.xcassets */; };
+		FC48F962259261BC00F8EF44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC48F961259261BC00F8EF44 /* Preview Assets.xcassets */; };
+		FC48F9A4259261E000F8EF44 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = FC48F96B259261E000F8EF44 /* locations.json */; };
+		FC48F9A5259261E000F8EF44 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = FC48F96C259261E000F8EF44 /* tips.json */; };
+		FC56899E2592ABCD00F831CB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56899D2592ABCD00F831CB /* Location.swift */; };
+		FC5689A22592AF5500F831CB /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5689A12592AF5500F831CB /* Locations.swift */; };
+		FC5689A62592B4D300F831CB /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5689A52592B4D300F831CB /* WorldView.swift */; };
+		FCBA3E342592BA110091BEED /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA3E332592BA110091BEED /* Tip.swift */; };
+		FCBA3E372592BA800091BEED /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA3E362592BA800091BEED /* Tips.swift */; };
+		FCBA3E3C2592BADE0091BEED /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA3E3B2592BADE0091BEED /* TipsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC48F957259261BA00F8EF44 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC48F95A259261BA00F8EF44 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
+		FC48F95C259261BA00F8EF44 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		FC48F95E259261BC00F8EF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC48F961259261BC00F8EF44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC48F963259261BC00F8EF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC48F96B259261E000F8EF44 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		FC48F96C259261E000F8EF44 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		FC56899D2592ABCD00F831CB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FC5689A12592AF5500F831CB /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		FC5689A52592B4D300F831CB /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		FCBA3E332592BA110091BEED /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		FCBA3E362592BA800091BEED /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		FCBA3E3B2592BADE0091BEED /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC48F954259261BA00F8EF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC48F94E259261BA00F8EF44 = {
+			isa = PBXGroup;
+			children = (
+				FC48F959259261BA00F8EF44 /* Trekr */,
+				FC48F958259261BA00F8EF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC48F958259261BA00F8EF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC48F957259261BA00F8EF44 /* Trekr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC48F959259261BA00F8EF44 /* Trekr */ = {
+			isa = PBXGroup;
+			children = (
+				FC5689A82592B4DE00F831CB /* Views */,
+				FC48F96A259261E000F8EF44 /* Data */,
+				FC48F95A259261BA00F8EF44 /* TrekrApp.swift */,
+				FC48F95E259261BC00F8EF44 /* Assets.xcassets */,
+				FC48F963259261BC00F8EF44 /* Info.plist */,
+				FC48F960259261BC00F8EF44 /* Preview Content */,
+			);
+			path = Trekr;
+			sourceTree = "<group>";
+		};
+		FC48F960259261BC00F8EF44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC48F961259261BC00F8EF44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC48F96A259261E000F8EF44 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC56899D2592ABCD00F831CB /* Location.swift */,
+				FC5689A12592AF5500F831CB /* Locations.swift */,
+				FC48F96B259261E000F8EF44 /* locations.json */,
+				FCBA3E332592BA110091BEED /* Tip.swift */,
+				FCBA3E362592BA800091BEED /* Tips.swift */,
+				FC48F96C259261E000F8EF44 /* tips.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FC5689A82592B4DE00F831CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC48F95C259261BA00F8EF44 /* LocationView.swift */,
+				FC5689A52592B4D300F831CB /* WorldView.swift */,
+				FCBA3E3B2592BADE0091BEED /* TipsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC48F956259261BA00F8EF44 /* Trekr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC48F966259261BC00F8EF44 /* Build configuration list for PBXNativeTarget "Trekr" */;
+			buildPhases = (
+				FC48F953259261BA00F8EF44 /* Sources */,
+				FC48F954259261BA00F8EF44 /* Frameworks */,
+				FC48F955259261BA00F8EF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trekr;
+			productName = Trekr;
+			productReference = FC48F957259261BA00F8EF44 /* Trekr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC48F94F259261BA00F8EF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FC48F956259261BA00F8EF44 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FC48F952259261BA00F8EF44 /* Build configuration list for PBXProject "Trekr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC48F94E259261BA00F8EF44;
+			productRefGroup = FC48F958259261BA00F8EF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC48F956259261BA00F8EF44 /* Trekr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC48F955259261BA00F8EF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC48F962259261BC00F8EF44 /* Preview Assets.xcassets in Resources */,
+				FC48F9A5259261E000F8EF44 /* tips.json in Resources */,
+				FC48F9A4259261E000F8EF44 /* locations.json in Resources */,
+				FC48F95F259261BC00F8EF44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC48F953259261BA00F8EF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC48F95D259261BA00F8EF44 /* LocationView.swift in Sources */,
+				FC56899E2592ABCD00F831CB /* Location.swift in Sources */,
+				FC5689A62592B4D300F831CB /* WorldView.swift in Sources */,
+				FCBA3E342592BA110091BEED /* Tip.swift in Sources */,
+				FCBA3E3C2592BADE0091BEED /* TipsView.swift in Sources */,
+				FCBA3E372592BA800091BEED /* Tips.swift in Sources */,
+				FC5689A22592AF5500F831CB /* Locations.swift in Sources */,
+				FC48F95B259261BA00F8EF44 /* TrekrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC48F964259261BC00F8EF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC48F965259261BC00F8EF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC48F967259261BC00F8EF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DRH5697SN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trekr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atrinh.Trekr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC48F968259261BC00F8EF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DRH5697SN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trekr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atrinh.Trekr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC48F952259261BA00F8EF44 /* Build configuration list for PBXProject "Trekr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC48F964259261BC00F8EF44 /* Debug */,
+				FC48F965259261BC00F8EF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC48F966259261BC00F8EF44 /* Build configuration list for PBXNativeTarget "Trekr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC48F967259261BC00F8EF44 /* Debug */,
+				FC48F968259261BC00F8EF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC48F94F259261BA00F8EF44 /* Project object */;
+}
