@@ -9,4 +9,6 @@
 
 A SwiftUI Tutorial walkthrough of [https://www.youtube.com/watch?v=aP-SQXTtWhY](https://www.youtube.com/watch?v=aP-SQXTtWhY)
 
+[https://github.com/twostraws/Trekr](https://github.com/twostraws/Trekr)
+
 <img src="demo.gif">
